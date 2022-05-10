@@ -63,6 +63,14 @@ std::vector<int> merge_sort(std::vector<int>& arr){
 
 int main(int argc, char** argv){
     
+    int a = 100;
+    int b = 10;
+    int* c = new int(100);
+    int* d = new int(10);
+    fprintf(stdout,"%p %p %p %p\n", &a, &b, c, d);
+    return 0;
+
+
     std::vector<int> vec;
     for (int i = 0; i < 100; ++i){
         vec.push_back(100-i);
