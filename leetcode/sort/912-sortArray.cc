@@ -65,9 +65,13 @@ int main(int argc, char** argv){
     
     int a = 100;
     int b = 10;
-    int* c = new int(100);
-    int* d = new int(10);
-    fprintf(stdout,"%p %p %p %p\n", &a, &b, c, d);
+
+    vector<int*> vp(100,nullptr);
+    for (int i = 0; i < 100; ++i){
+        vp[i] = new int(1);
+        fprintf(stdout, "%p %llbd\n", vp[i], vp[i]);
+    }
+
     return 0;
 
 
