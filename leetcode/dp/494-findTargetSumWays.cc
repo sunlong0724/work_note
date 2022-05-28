@@ -1,6 +1,5 @@
 #include "std.h"
 
-
 class Solution {
 public:
     int findTargetSumWays0(vector<int>& nums, int target) {

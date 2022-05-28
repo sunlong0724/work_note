@@ -19,7 +19,7 @@ strong {
 
 
 
-## 3. vector list map unordered_map   erase(iterator);、
+## 3. STL vector list map unordered_map   erase(iterator);、
 1. vector list 区别：
     - vector底层是连续结构；list底层是非连续结构
     - vector支持随机访问；list不支持随机访问
@@ -32,8 +32,10 @@ strong {
 2. map 底层实现是红黑树。  其特点：     
     - 根节点和叶子节点(叶子节点是nullptr节点)都是黑色。
     - 红色节点的孩子节点都是黑色。
-    - 从其任一节点到其每个叶子节点的简单路径上都包含相同个数的黑色节点。
-     
+    - 从其任一节点到其每个叶子节点的简单路径上都包含相同个数的黑色节点。  
+  
+3. list 底层双链表实现
+4. queue 底层是dque实现
 
 
   
